@@ -26,6 +26,10 @@ public class parameterization {
 			String newpassword =reader.getCellData("Testdata", "Newpassword", rows);
 			System.out.println(newpassword);
 			
+			
+			
+			System.out.println("neha deshmukh");
+			
 			driver.findElement(By.xpath(".//input[@id='u_0_j']")).clear();
 			driver.findElement(By.xpath(".//input[@id='u_0_j']")).sendKeys(firstname);
 			
